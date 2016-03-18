@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" dir="ltr" lang="en">
+    <head>
+        <title>Enregistrer</title>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/> 
+        <script src="scripts/Voiliers_enregistrer.js" type="text/javascript"> </script>
+        <script src="scripts/utils.js" type="text/javascript"> </script>
+    </head>
+    <body>
+        <div>
+            <form method='POST' name="saisie">
+                <p>
+                    <label> Nom voilier : </label>
+                    <input type="text" name="nomVoilier" id="nomVoilier"/>
+                </p>
+                <p>
+                    <label>Numéro de voile :</label>
+                    <input type="text" name="numVoile" id="numVoile"/>
+                </p>
+                <p>
+                    <label>Classe du voilier :</label>
+                    <input type="text" name="classe" id="classe"/>
+                </p>
+                <p>
+                    <label>Année de construction :</label>
+                    <input type="text" name="anneeConstr" id="anneeConstr"/>
+                </p>
+                <p>
+                    <label>Adresse de l'image :</label>
+                    <input type="text" name="adresse" id="adresse"/>
+                </p>
+                <p>
+                    <label>Chantier naval :</label>
+                    <input type="text" name="chantier" id="chantier"/>
+                </p>
+                <p>
+                    <label>Architecte :</label>
+                    <input type="text" name="architecte" id="architecte"/>
+                </p>
+                <p>
+                    <label>Nom skipper1 :</label>
+                    <input type="text" name="skipper1" id="skipper1"/>
+                </p>
+                <p>
+                    <label>Nom skipper 2 :</label>
+                    <input type="text" name="skipper2" id="skipper2"/>
+                </p>
+                <p>
+                    <label>Description skippers :</label>
+                    <input type="text" name="skippersDescr" id="skippersDescr"/>
+                </p>
+            </form>
+            <p>
+                <input type="submit" name="enregistrer" value="Enregistrer" id="enregistrer"/>
+            </p>
+        </div>
+        <div id="msg"/>
+    </body>
+</html>

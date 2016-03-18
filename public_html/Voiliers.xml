@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="application/xml" href="Voiliers-v1.xsl"?>
+
+<!--racine-->
+<voiliers>
+	<!--VOILIER 1-->
+	<voilier numerovoile="FRA30" classe="CLASS 40" annee="2007">
+		<nom> Groupe Setin </nom>
+		<architecte> Simon Rogers </architecte>
+		<chantier> CMI - Thailande </chantier>
+		<photo adresse="photos/fra30.jpg"/>
+		<skippers>
+			<skipper nom="Manuel" prenom="Cousin"/>
+			<skipper nom="Gerald" prenom="Queouron"/>
+			<texteskippers> Manel Cousin est normand ne a <nomgeo> Rouen </nomgeo>Gerald Queouron est un marin professionnel ne a<nomgeo> Saint-Renan</nomgeo></texteskippers>
+		</skippers>
+	</voilier>
+	
+	<!--VOILIER 2-->
+	<voilier numerovoile="GBR99" classe="IMOCA" annee="2015">
+		<nom> Hugo Boss </nom>
+		<architecte> VPLP/Guillaume Verdier </architecte>
+		<chantier> Green Marine </chantier>
+		<photo adresse="photos/gbr99.jpg"/>
+		<skippers>
+			<skipper nom="Alex" prenom="Thompson"/>
+			<skipper nom="Guillermo" prenom="Altadill"/>
+			<texteskippers> Alex Thompson est anglais et est ne a <nomgeo> Bangor </nomgeo>Gerald Queouron est espagnol et est ne a<nomgeo> Barcelone </nomgeo></texteskippers>
+		</skippers>
+	</voilier>
+	
+	
+	<!--VOILIER 3-->
+	<voilier numerovoile="FRA9" classe="MULTI 50" annee="2013">
+		<nom> Arkema </nom>
+		<architecte> Romaric Neyhousser </architecte>
+		<chantier> Lalou Multi </chantier>
+		<photo adresse="photos/fra9.jpg"/>
+		<skippers>
+			<skipper nom="Lalou" prenom="Roucayrol"/>
+			<skipper nom="Cesar" prenom="Dohy"/>
+			<texteskippers> Lalou Roucayrol est francais et est ne a <nomgeo> Nantes </nomgeo>Cesar Dohy est francais et est ne a<nomgeo> Paris </nomgeo></texteskippers>
+		</skippers>
+	</voilier>
+	
+	<!--VOILIER 4 -->
+	<voilier numerovoile="FRA142" classe="CLASS 40" annee="2014">
+		<nom> Le Conservateur </nom>
+		<architecte> Guillaume Verdier </architecte>
+		<chantier> BG Race </chantier>
+		<photo adresse="photos/fra142.jpg"/>
+		<skippers>
+			<skipper nom="Yannick" prenom="Bestaven"/>
+			<skipper nom="Pierre" prenom="Brasseur"/>
+			<texteskippers> Yannick Bestaven est francais et est ne a <nomgeo> Saint-Nazaire </nomgeo> Pierre Brasseur est francais et est ne a<nomgeo> Amiens </nomgeo></texteskippers>
+		</skippers>
+	</voilier>
+	
+	<voilier numerovoile="FRA80" classe="ultime" annee="2007">
+		<nom> Prince de Bretagne </nom>
+		<architecte> VPLP </architecte>
+		<chantier> Multiplast </chantier>
+		<photo adresse="photos/fra80.jpg"/>
+		<skippers>
+			<skipper nom="Lionel" prenom="Lemonchois"/>
+			<skipper nom="Roland" prenom="Jourdain"/>
+			<texteskippers> 
+				Lionel Lemonchois est francais et est ne a <nomgeo> Bayeux </nomgeo>Roland Jourdain est francais et est ne a<nomgeo>Quimper</nomgeo>
+			</texteskippers>
+		</skippers>
+	</voilier>
+	
+</voiliers>
+
+
+
+
